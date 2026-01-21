@@ -1,0 +1,109 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "66045985b9f678756839fa1107489809",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Noin 3000 yleisint\u00e4 ruotsin kielen sanaa alkaen yleisimm\u00e4st\u00e4. Eli alussa on jag ja du ja n\u00e4it\u00e4.</span>\n<span class=\"paragraph\">ID: sanalle id: alkaa ykk\u00f6sest\u00e4,\nSwedish column: vain yksi sana perusmuodossa\nEnglish column: 1-3 l\u00e4hint\u00e4 k\u00e4\u00e4nn\u00f6st\u00e4.\nforms: sanan formit\nword_type: mik\u00e4 tyyppi\nswedish_example, yksi esimerkki lause ruotsiksi\nenglish_example: lauseen k\u00e4\u00e4nn\u00f6s</span>\n<span class=\"paragraph\">Sitten tricky part. esimerkkilauseissa esiintyy muita listan sanoja sopivissa kohdin ja m\u00e4\u00e4rin.\nEsimerkiksi jag id on 1 ja startar id on 10, bil id 25: esimerkki lause voisi olla: jag har r\u00f6da bil men det startar inte.</span>\n<span class=\"paragraph\">Eli t\u00e4ss\u00e4 jag sanan esimerkki lause antaa jo pian tulevasta sanasa bil id 25 ja antaa reminderin jo olleesta sanasta startar id 10.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "wNVH",
+      "code_hash": "fbff70f3d11937527793ec4416666fb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Mission Statement:</span>\n<ul>\n<li>Tarvitaan ID: column - &gt; rolling</li>\n<li>Swedish column: vain yksi sana perusmuodossa</li>\n<li>English column: 1-3 l\u00e4hint\u00e4 k\u00e4\u00e4nn\u00f6st\u00e4</li>\n<li>forms: sanan formit</li>\n<li>word_type: mik\u00e4 tyyppi </li>\n<li>swedish_example, yksi esimerkki lause ruotsiksi</li>\n<li>english_example: lauseen k\u00e4\u00e4nn\u00f6s</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "JITn",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bmas",
+      "code_hash": "0352e94a65f212698bdb8e6f31b3c44e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tehd\u00e4\u00e4n yll\u00e4oleville asioille numerointi.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ffsy",
+      "code_hash": "3e59dbea3ace713aa070e8fe45d13c04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"kun-teen-databasen-prob-duckdb-niin-kaytetaan-naita-arvoja-per-haluttu-asia\">Kun teen databasen prob duckdb, niin k\u00e4ytet\u00e4\u00e4n n\u00e4it\u00e4 arvoja per haluttu asia</h3>\n<span class=\"paragraph\">ID_COLUMN  = 0\nSWEDISH_COLUMN = 1\nENGLISH_COLUMN = 2\nFORMS = 3\nWORD_TYPE = 4\nSWEDISH_EXAMPLES = 5\nENGLISH_EXAMPLES = 6</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xZEl",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "sUfi",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

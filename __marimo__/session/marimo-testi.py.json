@@ -1,0 +1,117 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.4"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": null,
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WDAQ",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "cpFp",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "rVUn",
+      "code_hash": "b003af172df09fba2dcba94d79496d57",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"marimo-notebookit\">Marimo notebookit</h1>\n<span class=\"paragraph\">on uudenlainen tapa tehd\u00e4 notebookkeja, se on open source, \"Reusable\" &lt;---??</span>\n<span class=\"paragraph\">everynotebook can we run as a script OR a WEBapp &lt;----????</span>\n<span class=\"paragraph\">Kun p\u00e4ivit\u00e4t yhen cellin arvoja kaikkien muiden cellien arvot sen osalta p\u00e4ivittyy.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zqls",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "KHGN",
+      "code_hash": "47d38e648a9d93a588abad61bbef1161",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='KHGN-0' random-id='61fd99d9-5c69-05a9-7dc8-0472f0213886'><marimo-slider data-initial-value='1' data-label='null' data-start='1' data-stop='10' data-step='2' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "VLzZ",
+      "code_hash": "e29a018b793d2700b306fd24f4720b1d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CIoP",
+      "code_hash": "60b725f10c9c85c70d97880dfe8191b3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>9</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YeTw",
+      "code_hash": "61f560fb316054e2826284269f20260e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>12</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ozcb",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

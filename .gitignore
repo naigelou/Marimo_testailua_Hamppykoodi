@@ -1,0 +1,12 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# uv
+.uv/
+
+
+#EI turhia tiedostoja
+*.csv
