@@ -49,26 +49,46 @@
       "console": []
     },
     {
-      "id": "wNVH",
-      "code_hash": "fbff70f3d11937527793ec4416666fb9",
+      "id": "PKri",
+      "code_hash": "4cd75996291261708aaad45b8decd574",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Mission Statement:</span>\n<ul>\n<li>Tarvitaan ID: column - &gt; rolling</li>\n<li>Swedish column: vain yksi sana perusmuodossa</li>\n<li>English column: 1-3 l\u00e4hint\u00e4 k\u00e4\u00e4nn\u00f6st\u00e4</li>\n<li>forms: sanan formit</li>\n<li>word_type: mik\u00e4 tyyppi </li>\n<li>swedish_example, yksi esimerkki lause ruotsiksi</li>\n<li>english_example: lauseen k\u00e4\u00e4nn\u00f6s</li>\n</ul></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Mission Statement:</span>\n<ul>\n<li>Tarvitaan ID: column - &gt; rolling</li>\n<li>Swedish column: vain yksi sana perusmuodossa</li>\n<li>English column: 1-3 l\u00e4hint\u00e4 k\u00e4\u00e4nn\u00f6st\u00e4</li>\n<li>forms: sanan formit</li>\n<li>word_type: mik\u00e4 tyyppi</li>\n<li>swedish_example, yksi esimerkki lause ruotsiksi</li>\n<li>english_example: lauseen k\u00e4\u00e4nn\u00f6s</li>\n</ul></span>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "JITn",
-      "code_hash": null,
-      "outputs": [],
+      "id": "Xref",
+      "code_hash": "621603932e833da0c20225ff1dd4d558",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"swedish-kelly-list-columns-explained-beginner-friendly\">Swedish Kelly-list columns explained (beginner-friendly)</h1>\n<span class=\"paragraph\">Each row in the Kelly-list is one <strong>word entry</strong> (a <em>lemma</em>) plus information about that word.</span>\n<hr />\n<h2 id=\"1-id-running-number-rank\">1) ID / running number (rank)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> The word\u2019s <strong>position</strong> in the frequency list.<br />\n<strong>What it tells you:</strong> Lower ID usually means the word is <strong>more common</strong>.</span>\n<ul>\n<li>ID = 1 \u2192 one of the most frequent words</li>\n<li>ID = 5000 \u2192 still common, but less frequent than the first ones</li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>ID = 88</code> means the word is around the 88th most frequent in the list.</span>\n<hr />\n<h2 id=\"2-raw-frequency-rf\">2) Raw frequency (RF)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> The <strong>total number of times</strong> the word appears in the source text collection (corpus).<br />\n<strong>What it tells you:</strong> How often it was seen <strong>in the raw data</strong>.</span>\n<span class=\"paragraph\"><strong>Example:</strong> <code>RF = 2,624,032</code> means the word appeared 2,624,032 times in the corpus.</span>\n<span class=\"paragraph\"><strong>Note:</strong> RF depends on corpus size. A larger corpus gives bigger numbers.</span>\n<hr />\n<h2 id=\"3-relative-frequency-word-per-million-wpm\">3) Relative frequency / Word per Million (WPM)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> Frequency scaled to <strong>a standard size</strong>: \u201chow many times per 1,000,000 words.\u201d<br />\n<strong>What it tells you:</strong> A fair way to compare frequencies <strong>across corpora of different sizes</strong>.</span>\n<span class=\"paragraph\"><strong>Example:</strong> <code>WPM = 23017.26</code> means that in 1,000,000 words of text, the word appears about 23,017 times.</span>\n<span class=\"paragraph\"><strong>Why it matters:</strong> WPM is easier to compare than RF.</span>\n<hr />\n<h2 id=\"4-cefr-level-a1c2\">4) CEFR level (A1\u2013C2)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> A difficulty/learning level from the CEFR framework.<br />\n<strong>What it tells you:</strong> Roughly when learners are expected to know the word.</span>\n<ul>\n<li><strong>A1</strong> = beginner (very common, basic words)</li>\n<li><strong>A2</strong> = elementary</li>\n<li><strong>B1</strong> = intermediate</li>\n<li><strong>B2</strong> = upper-intermediate</li>\n<li><strong>C1</strong> = advanced</li>\n<li><strong>C2</strong> = proficient / near-native</li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>CEFR = A1</code> means the word is expected early in learning.</span>\n<hr />\n<h2 id=\"5-source-of-lemma\">5) Source of lemma</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> Where the headword came from (how it was selected).<br />\n<strong>What it tells you:</strong> The origin of the entry, which can affect style and coverage.</span>\n<span class=\"paragraph\">Typical sources you mentioned:</span>\n<ul>\n<li><strong>SweWAC</strong>: from the SweWAC corpus (large Swedish web corpus)</li>\n<li><strong>T2</strong>: from a translation list</li>\n<li><strong>Manually added</strong>: inserted by editors</li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>Source = SweWAC</code> means it comes from the corpus list.</span>\n<hr />\n<h2 id=\"6-grammar-information-article-or-infinitive-marker\">6) Grammar information (article or infinitive marker)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> A short grammar hint attached to the lemma.<br />\n<strong>What it tells you:</strong> How to use the word correctly in sentences.</span>\n<span class=\"paragraph\">Common cases:</span>\n<ul>\n<li>\n<span class=\"paragraph\">For <strong>nouns</strong>: the <strong>article</strong> (e.g., <em>en</em>, <em>ett</em>)</span>\n<ul>\n<li><code>en bil</code> (a car), <code>ett hus</code> (a house)</li>\n</ul>\n</li>\n<li>\n<span class=\"paragraph\">For <strong>verbs</strong>: the <strong>infinitive marker</strong> (often <em>att</em>)</span>\n<ul>\n<li><code>att vara</code> (to be)</li>\n</ul>\n</li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>Grammar marker = att</code> suggests the lemma is a verb used as <code>att + verb</code>.</span>\n<hr />\n<h2 id=\"7-lemma-sometimes-with-variants\">7) Lemma (sometimes with variants)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> The dictionary base form of the word (the \u201cheadword\u201d).<br />\n<strong>What it tells you:</strong> The form you typically look up in a dictionary.</span>\n<span class=\"paragraph\">Sometimes variants are included:</span>\n<ul>\n<li>spelling variants</li>\n<li>stylistic variants (formal/informal)</li>\n<li>spoken forms</li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>vara (vardagl. va)</code> means:</span>\n<ul>\n<li><strong>vara</strong> = the lemma (\u201cto be\u201d)</li>\n<li><strong>va</strong> = a more casual/spoken variant</li>\n</ul>\n<hr />\n<h2 id=\"8-word-class-pos\">8) Word class (POS)</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> Part of Speech (POS).<br />\n<strong>What it tells you:</strong> The grammatical category of the word.</span>\n<span class=\"paragraph\">Common POS values:</span>\n<ul>\n<li><strong>noun</strong></li>\n<li><strong>verb</strong></li>\n<li><strong>adjective</strong></li>\n<li><strong>adverb</strong></li>\n<li><strong>pronoun</strong></li>\n<li><strong>preposition</strong></li>\n<li><strong>conjunction</strong></li>\n<li><strong>interjection</strong></li>\n</ul>\n<span class=\"paragraph\"><strong>Example:</strong> <code>POS = verb</code> means the lemma is a verb.</span>\n<hr />\n<h2 id=\"9-comments-examples\">9) Comments / examples</h2>\n<span class=\"paragraph\"><strong>What it is:</strong> Extra notes, clarifications, or example sentences.<br />\n<strong>What it tells you:</strong> How the word is used in real context, or special meaning notes.</span>\n<span class=\"paragraph\"><strong>Example:</strong> <code>var s\u00e5 god!</code> is a usage example for <strong>vara</strong>.</span>\n<hr />\n<h1 id=\"mini-example-one-entry\">Mini example (one entry)</h1>\n<span class=\"paragraph\"><strong>ID:</strong> 88<br />\n<strong>RF:</strong> 2,624,032<br />\n<strong>WPM:</strong> 23,017.26<br />\n<strong>CEFR:</strong> A1<br />\n<strong>Source:</strong> SweWAC<br />\n<strong>Grammar marker:</strong> att<br />\n<strong>Lemma:</strong> vara (vardagl. va)<br />\n<strong>POS:</strong> verb \n<strong>Example:</strong> var s\u00e5 god!</span>\n<span class=\"paragraph\">This means: \u201cvara\u201d is a very common A1-level verb, drawn from the SweWAC source, and frequently used enough to appear ~23,017 times per million words in that corpus.</span></span>"
+          }
+        }
+      ],
       "console": []
     },
     {
-      "id": "bmas",
+      "id": "TgUu",
+      "code_hash": "e556d5d378d90d608c59204346efebc8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><a href=\"https://spraakbanken.gu.se/projekt/kelly\" rel=\"noopener noreferrer\" target=\"_blank\">https://spraakbanken.gu.se/projekt/kelly</a> </span>\n<span class=\"paragraph\">Siis noitten database on arvostellut eniten k\u00e4yetty ja vaikeustasot. Voidaan tolla datal teh\u00e4 eri Certifikaatti luokka kyselyit\u00e4</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
       "code_hash": "0352e94a65f212698bdb8e6f31b3c44e",
       "outputs": [
         {
@@ -81,7 +101,7 @@
       "console": []
     },
     {
-      "id": "ffsy",
+      "id": "BYtC",
       "code_hash": "3e59dbea3ace713aa070e8fe45d13c04",
       "outputs": [
         {
@@ -94,13 +114,79 @@
       "console": []
     },
     {
-      "id": "xZEl",
-      "code_hash": null,
-      "outputs": [],
+      "id": "RGSE",
+      "code_hash": "567fbfa8c9d1c3c9d7a9b924b388b20d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='RGSE-0' random-id='1fc0c7f4-409a-b74f-021a-33bfb260b6db'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;ID&#92;&quot;:1,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;AB&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;Ltd.&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;Co.&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;Inc.&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;abbreviation&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;Svenska Cellulosa AB&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;AB Svensk Bilprovning&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;Swedish Cellulosa Ltd.&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;The Swedish Motor Vehicle Inspection Co.&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:2,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;absolut&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;absolute&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;adjective&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;absolut&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absoluta&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;absolut majoritet&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;absolute majority&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:3,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;absolut&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;certainly&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absolutely&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;definitely&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;adverb&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;du f&#92;&#92;u00e5r absolut inte komma&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absolut f&#92;&#92;u00e4rsk&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absolut n&#92;&#92;u00f6dv&#92;&#92;u00e4ndig&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;you definitely can&amp;#39;t come&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absolutely fresh&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;absolutely necessary, essential&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:4,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;acceptera&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;accept&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;verb&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;accepterade&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;accepterat&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;acceptera&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;accepterar&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;k&#92;&#92;u00e4nna sig accepterad&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;acceptera ett f&#92;&#92;u00f6rslag&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;feel oneself accepted&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;accept a suggestion&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:5,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;adress&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;address&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;adressen&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;adresser&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;uppge namn och adress!&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;min adress &#92;&#92;u00e4r Ringgatan 23, Kungsbacka&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;state name and address, please!&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;my address is Ringgatan 23, Kungsbacka&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:6,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;advokat&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;solicitor&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;counsel&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;attorney&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;lawyer&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;barrister&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;advokaten&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;advokater&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:7,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;aff&#92;&#92;u00e4r&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;transaction&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;deal&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;business&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;aff&#92;&#92;u00e4ren&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;aff&#92;&#92;u00e4rer&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;g&#92;&#92;u00f6ra en god aff&#92;&#92;u00e4r&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;ha aff&#92;&#92;u00e4rer med utlandet&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;a good (profitable) piece of business&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;do business (have dealings) with other countries, run an international business&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:8,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;aff&#92;&#92;u00e4r&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;shop&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;aff&#92;&#92;u00e4ren&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;aff&#92;&#92;u00e4rer&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;en billig aff&#92;&#92;u00e4r&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;g&#92;&#92;u00e5 till aff&#92;&#92;u00e4ren&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;a low-price shop&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;go to the shop, go shopping&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:9,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;aff&#92;&#92;u00e4r&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;affair&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;aff&#92;&#92;u00e4ren&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;aff&#92;&#92;u00e4rer&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;sk&#92;&#92;u00f6t dina egna aff&#92;&#92;u00e4rer!&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;mind your own business!&#92;&#92;&#92;&quot;]&#92;&quot;},{&#92;&quot;ID&#92;&quot;:10,&#92;&quot;Swedish&#92;&quot;:&#92;&quot;aff&#92;&#92;u00e4r&#92;&quot;,&#92;&quot;English&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;affair&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Word_Type&#92;&quot;:&#92;&quot;noun&#92;&quot;,&#92;&quot;Forms&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;aff&#92;&#92;u00e4ren&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;aff&#92;&#92;u00e4rer&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;Swedish_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;han gjorde ingen aff&#92;&#92;u00e4r av saken&#92;&#92;&#92;&quot;]&#92;&quot;,&#92;&quot;English_Examples&#92;&quot;:&#92;&quot;[&#92;&#92;&#92;&quot;he didn&amp;#39;t make much fuss about it (make an issue of it)&#92;&#92;&#92;&quot;]&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='7' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;ID&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;Swedish&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;English&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;Word_Type&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;Forms&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;Swedish_Examples&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;English_Examples&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
       "console": []
     },
     {
-      "id": "sUfi",
+      "id": "Kclp",
+      "code_hash": "e181efcf155eef21719f37511de1f32f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "eFYO",
+      "code_hash": "57faba4ccb159298d4194f9fc72fb7f7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "/home/jaska/Desktop/Marimo_testailua_Hamppykoodi\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ItgX",
+      "code_hash": "116b830759e7532b0c1deed02ef8a9b9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"swe-eng-malli.csv\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "uxDT",
+      "code_hash": "042b5ee143738e13c325808e450a0890",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>3824</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "wNTs",
       "code_hash": null,
       "outputs": [],
       "console": []
